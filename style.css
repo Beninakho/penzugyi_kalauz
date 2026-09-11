@@ -17,6 +17,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 850px;
   column-gap: 68px;
+  margin-bottom: 96px;
 }
 
 .container {
@@ -73,4 +74,76 @@ img {
   background-color: #9d2b1f;
   box-shadow: 0 0 28px #9d2b1f;
   color: #fff;
+}
+
+hr {
+  display: block;
+  height: 6px;
+  width: 128px;
+  border: 0;
+  border-top: solid 2px #e43c2b;
+  margin-bottom: 24px;
+}
+
+.cim--2 {
+  color: #e43c2b;
+  font-size: 34px;
+  margin-bottom: 64px;
+}
+
+.kozep {
+  margin-left: 24px;
+}
+
+.icon {
+  margin-bottom: 24px;
+}
+
+.cim {
+  color: #e43c2b;
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.szoveg {
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  height: 550px;
+  position: relative;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 36px;
+}
+
+.card-img {
+  width: 100%;
+  margin-bottom: 24px;
+  padding-left: 0;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.padding {
+  padding-left: 24px;
+}
+
+.btn--more {
+  width: 55%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(24px, -24px);
 }
