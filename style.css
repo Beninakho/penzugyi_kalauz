@@ -18,9 +18,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 650px;
   column-gap: 68px;
-  margin-bottom: 98px;
+  margin-bottom: 168px;
+
   background-color: #f8f9fa;
-  height: 748px;
+  padding: 12px 12px;
+  height: 648px;
 }
 
 @media (max-width: 1264px) {
@@ -39,22 +41,22 @@ body {
 }
 
 .hero-title {
-  font-size: clamp(36px, 6vw, 16px);
+  font-size: clamp(32px, 6vw, 16px);
   line-height: 1.2;
-  margin-bottom: 32px;
+  margin-bottom: 56px;
   color: #e43c2b;
   font-weight: 900;
 }
 
 .hero-text {
-  font-size: clamp(18px, 6vw, 12px);
+  font-size: clamp(16px, 6vw, 12px);
   line-height: 1.6;
   margin-bottom: 24px;
 }
 
 .hero-author {
   font-size: 14px;
-  margin-bottom: 48px;
+  margin-bottom: 68px;
   font-weight: 500;
   color: #868e96;
 }
@@ -114,7 +116,8 @@ hr {
   margin-bottom: 24px;
 }
 
-.cim {
+.cim,
+.cim--3 {
   color: #e43c2b;
   font-size: 28px;
   margin-bottom: 6px;
@@ -191,6 +194,10 @@ hr {
   }
 }
 
+.containers {
+  margin-bottom: 148px;
+}
+
 .container--1,
 .container--2,
 .container--3,
@@ -221,7 +228,7 @@ hr {
 .illustration {
   width: 50%;
   transform: scale(1.25);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 24px rgba(0, 0, 0, 0.25);
 }
 
 .text--right {
@@ -237,12 +244,104 @@ hr {
 .cim--2 {
   margin-bottom: 124px;
 }
-
+.cim--3 {
+  margin-bottom: 248px;
+}
 .text--right,
 .small-text--right {
   padding-left: 24px;
 }
 
+.container--5 {
+  background-color: #e43c2b;
+  border-radius: 8px;
+  width: 1000px;
+  margin: 100px auto;
+  padding: 32px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 124px;
+}
+
+.btn--1 {
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--left {
+  left: 0;
+
+  transform: translate(500%, 50px);
+}
+
+.btn--right {
+  right: 0;
+
+  transform: translate(-500%, 50px);
+}
+
+.about-us-img {
+  width: 375px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+  position: absolute;
+  top: 0;
+  transform: translate(-125px, -125px);
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-left: 314px;
+  margin-bottom: 32px;
+  color: #fff5f5;
+}
+.testimonial-author {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #e43c2b;
+}
+.testimonial-job {
+  font-size: 18px;
+  color: #e43c2b;
+}
+
+.name-job {
+  position: absolute;
+  top: 0;
+  transform: translate(314px, -96px);
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 62px);
+
+  display: flex;
+  gap: 14px;
+}
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  border: 2px solid #e43c2b;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.dot--fill {
+  background-color: #e43c2b;
+}
 /* Animation */
 
 #progress {
