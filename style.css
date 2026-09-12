@@ -25,7 +25,7 @@ body {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 14px 24px rgba(0, 0, 0, 0.2);
-  padding: 12px 32px;
+  padding: 12px 24px;
   z-index: 1000;
 }
 @media (max-width: 1026px) {
@@ -94,7 +94,7 @@ body {
   height: 648px;
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .hero {
     padding: 84px 48px;
     text-align: left;
@@ -103,7 +103,7 @@ body {
   }
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .hero-img {
     margin-top: 48px;
   }
@@ -224,14 +224,14 @@ hr {
   border-bottom-right-radius: 0;
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .cards {
     grid-template-columns: 1fr;
     row-gap: 224px;
   }
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .card {
     margin-bottom: 24px;
   }
@@ -256,13 +256,13 @@ hr {
   margin-bottom: 148px;
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .section--1 {
     padding: 84px 48px;
   }
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .hero {
     padding: 84px 48px;
   }
@@ -284,7 +284,7 @@ hr {
   margin-bottom: 98px;
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .container--1,
   .container--3 {
     flex-direction: column;
@@ -293,7 +293,7 @@ hr {
   }
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .container--2,
   .container--4 {
     flex-direction: column;
@@ -345,7 +345,7 @@ hr {
   gap: 124px;
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .container--5 {
     width: 400px;
   }
@@ -435,22 +435,22 @@ hr {
   background-color: #e43c2b;
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .testimonial-text {
-    width: 300px;
+    width: 100%;
     padding-left: 16px;
     padding-top: 268px;
   }
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .name-job {
     position: absolute;
     top: 0;
     transform: translate(10%, -200px);
   }
 }
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .btn--left {
     left: 0;
 
@@ -458,7 +458,7 @@ hr {
   }
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1026px) {
   .btn--right {
     left: 0;
 
