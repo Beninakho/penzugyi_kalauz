@@ -26,7 +26,7 @@ body {
 
 @media (max-width: 1026px) {
   .partner {
-    margin-top: 22.5%;
+    margin-top: 30%;
   }
 }
 .partner-img {
@@ -401,7 +401,7 @@ hr {
 }
 
 .about-us-img {
-  width: 100%;
+  width: 298px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 
   position: absolute;
@@ -413,7 +413,8 @@ hr {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
-  padding-left: 314px;
+  padding-left: 234px;
+  padding-right: 34px;
   margin-bottom: 32px;
   color: #fff5f5;
 }
